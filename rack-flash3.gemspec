@@ -7,11 +7,10 @@ Gem::Specification.new do |s|
   s.name = "rack-flash3"
   s.version = "1.0.1"
 
-  s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Pat Nakajima", "Travis Reeder"]
-  s.date = "2012-03-27"
+  s.authors = ["Daejuan Jacobs"]
+  s.date = "2014-08-07"
   s.description = "Flash hash implementation for Rack apps."
-  s.email = "treeder@gmail.com"
+  s.email = "djacobs@cloudrck.com"
   s.extra_rdoc_files = [
     "README.md"
   ]
@@ -31,9 +30,8 @@ Gem::Specification.new do |s|
     "test/helper.rb",
     "test/test_flash.rb"
   ]
-  s.homepage = "http://www.iron.io"
+  s.homepage = "http://cloudrck.com"
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.21"
   s.summary = "Flash hash implementation for Rack apps."
 
   if s.respond_to? :specification_version then
